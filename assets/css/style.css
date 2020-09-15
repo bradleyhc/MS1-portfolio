@@ -1,0 +1,142 @@
+
+
+
+
+/* Colors */
+.white-on-dark-text {
+    color: #fff;
+}
+
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&family=Poppins:wght@100;300;400;500&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Kumbh Sans', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px
+}
+
+
+/* Nav */
+
+.navbar-nav {
+    flex-direction: row
+}
+
+ul > li > a {
+    text-decoration: none;
+    list-style: none;
+    display: grid;
+    text-align: center;
+}
+
+ul > li > a > i {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.nav-item {
+    padding: 30px;
+    width: -webkit-fill-available;
+    height: 150px
+}
+
+.nav-item > a {
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-item > a:hover {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 10px #101010;
+}
+.nav-item > a > i {
+    transition: 0.3s linear;
+}
+.nav-item > a:hover > i {
+    color: #fff;
+    font-size: 45px;
+    text-shadow: 1px 1px 10px #101010;
+}
+
+
+body {
+    height: 100vh;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.center-screen-vert {
+    width: 100%;
+    height: max-content;
+    position: fixed;
+    top: 45%;
+}
+
+.center {
+    margin: auto;
+    position: relative;
+}
+
+
+
+
+/* Images  */ 
+
+#homepage-bg {
+    background-image: url('../images/technical-background.jpg'); 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; background-color: rgb(10,0,91);
+    background-attachment: fixed;
+}
+
+/* Homepage */
+
+#homepage-title {
+    text-align: center;
+    display: inline-table;
+    transform: translatex(50%);
+    transition: 0.7s ease-in-out;
+}
+
+#homepage-right-about {
+    opacity: 0;
+    transition: 0.7s ease-in-out
+}
+
+.fullpage-section {
+    height: 100vh;
+}
+
+#show-about-on-hover:hover > #homepage-right-about {
+    opacity: 1;
+    transition: 0.7s ease-in-out
+}
+
+#homepage-title > h1, h2 {
+    transition: 0.7s ease-in-out;
+}
+
+#show-about-on-hover:hover > div#homepage-title > h1 {
+transform: translateX(-11%)
+
+}
+
+#show-about-on-hover:hover > div#homepage-title > h2 {
+transform: translateX(-20%)
+
+}
+
+#show-about-on-hover:hover > div#homepage-title {
+    transform: translateX(30%)
+}
+
