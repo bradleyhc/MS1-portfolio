@@ -49,6 +49,7 @@ body {
     padding: 0;
     margin: 0;
     width: 100vw; 
+    overflow-x: auto
 }
 
 section {
@@ -377,6 +378,64 @@ margin-left: 50px;
 
 /* -------- -------- ------- ------- MORE INFO PAGES NAVBAR */
 
+#moreInfoNav-mobile {
+    padding: 20px;
+    box-shadow: 0px 1px 6px #888888;
+    display: none
+}
+
+#logo-mobile {
+    width: auto;
+}
+
+.navbar-toggler {
+    padding: 0
+}
+
+#logo-mobile > div h1 {
+    font-size: 20px;
+    margin: 0
+}
+#logo-mobile > div h1 > i {
+    font-size: 20px;
+    margin: 0
+}
+
+#logo-mobile > div h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.mobile-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #dcdcdc;
+    margin-top: 20px;
+}
+
+.mobile-nav li {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 18px
+}
+.mobile-nav li:last-child {
+    border-bottom: none;
+    padding-bottom: 0
+}
+
+.mobile-nav li.active {
+    font-weight: 500;
+    color: #f4561b;
+}
+
+.mobile-nav-i {
+    font-size: 18px;
+    padding: 0;
+    margin-right: 5px;
+}
+
 #moreInfoNavbar {
     transition-duration: 0.8s;
     height: 220px;
@@ -576,9 +635,13 @@ width: min-content;
 }
 /* MEDIA QUERIES */
 
-        /* Smaller than Ipad */
-@media only screen and (max-width: 767px) {
-#footer-row {
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 812.98px) { 
+    #footer-row {
     display: flex;
     flex-direction: column-reverse;
 }
@@ -586,10 +649,20 @@ width: min-content;
     justify-content: center;
 }
 
+#moreInfoNavbar {
+    display: none;
 }
 
+#moreInfoNav-mobile {
+    display: flex;
+}
 
-@media only screen and (max-width: 991px) {
+.clear-navbar {
+    display: none
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
     #homepage-title {
         transform: translateY(100%) ;
     }
@@ -609,7 +682,12 @@ transform: translateX(0%)
 .navbar-nav {
     flex-direction: row!important;
 }
-}
+ }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { ... }
+
+
 
 
 /* ANIMATIONS */
