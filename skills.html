@@ -20,6 +20,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css"
+    />
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
@@ -30,7 +35,11 @@
       integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
   </head>
   <body>
     <nav
@@ -38,17 +47,17 @@
       id="moreInfoNavbar"
     >
       <a href="index.html">
-      <div
-        class="dark-text-on-white-bg center"
-        id="info-page-title"
-        style="position: absolute;"
-      >
-        <h1 class="bold">
-          Bradley Cooney <i class="divider-slash fas fa-slash"></i>
-        </h1>
+        <div
+          class="dark-text-on-white-bg center"
+          id="info-page-title"
+          style="position: absolute;"
+        >
+          <h1 class="bold">
+            Bradley Cooney <i class="divider-slash fas fa-slash"></i>
+          </h1>
 
-        <h2>Full-Stack Web Developer</h2>
-      </div>
+          <h2>Full-Stack Web Developer</h2>
+        </div>
       </a>
       <ul class="navbar-nav m-auto" id="moreInfoNavUl">
         <li class="nav-item page-item">
@@ -72,42 +81,148 @@
       </ul>
       <ul class="navbar-nav m-auto" id="moreInfoNavbarBtns">
         <li class="">
-        <a href="#" target="_blank">
-          <button type="button" class="btn btn-primary">Contact me</button>
-        </a>
+          <a href="#" target="_blank">
+            <button type="button" class="btn btn-primary">Contact me</button>
+          </a>
         </li>
         <li class="">
-        <a href="test.pdf" target="_blank">
-          <button type="button" class="btn btn-primary">Download CV</button>
-        </a>
+          <a href="test.pdf" target="_blank">
+            <button type="button" class="btn btn-primary">Download CV</button>
+          </a>
         </li>
       </ul>
       <ul class="navbar-nav m-auto" id="moreInfoNavbarBtns-right">
         <li class="">
-        <a href="#" target="_blank">
-          <button type="button" class="btn btn-primary">Contact me</button>
-        </a>
+          <a href="#" target="_blank">
+            <button type="button" class="btn btn-primary">Contact me</button>
+          </a>
         </li>
         <li class="">
-        <a href="test.pdf" target="_blank">
-          <button type="button" class="btn btn-primary">Download CV</button>
-        </a>
+          <a href="test.pdf" target="_blank">
+            <button type="button" class="btn btn-primary">Download CV</button>
+          </a>
         </li>
       </ul>
     </nav>
 
+    <section class="clear-navbar grey-section"></section>
+    <section class="grey-section">
+      <div class="col-md-8 col-sm-12 m-auto">
+        <h1>Key Skills</h1>
+        <p class="pb-3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
 
-  <footer>
-<div class="container h-100" id="footer-container"><div class="row h-100" id="footer-row">
-<div class="col-12 col-md-6 d-flex"><p class="my-auto" id="copyright">Copyright Bradley Cooney 2020 <i class="far fa-copyright"></i></p></div>
-<div class="col-12 col-md-6 d-flex " id="footer-social-btns">
-<p class="my-auto"><a href="mailto:bradleyh.cooney@gmail.com">Contact me</a></p>
-<a href="https://github.com/bradleyhc" target="_blank"><i class="fab fa-github-square"></i></a>
-<a href="https://www.linkedin.com/in/bradleycooney/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <div class="mb-5">
+          <button><p class="badge skill-badge mr-2 skill-excellent" data-toggle="popover" data-placement="top" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Project Management</p></button>
+          <button><p class="badge skill-badge mr-2 skill-very-good" data-toggle="popover" data-placement="top" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Project Management</p></button>
+          <button><p class="badge skill-badge mr-2 skill-good" data-toggle="popover" data-placement="top" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Project Management</p></button>
+          <button><p class="badge skill-badge mr-2 skill-decent" data-toggle="popover" data-placement="top" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Project Management</p></button>
+          <button><p class="badge skill-badge mr-2 skill-ok" data-toggle="popover" data-placement="top" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Project Management</p></button>
+        </div>
+      </div>
+      <div class="col-md-8 col-sm-12 m-auto">
+        <h1>Experience</h1>
+        <p class="pb-3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <div id="exp-timeline">
+          <div class="animation">
+            <div class="row">
+              <div class="col-12">
+                <div class="timeline-item-dot" data-aos="flip-left"></div>
+                <div class="" data-aos="zoom-out-left">
+                  <h5>
+                    2019 to Present | <strong>Producer, Events Agency</strong>
+                  </h5>
+                  <p>
+                    Lorem ipsum text would sit here because this would be an
+                    item
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="animation">
+            <div class="row">
+              <div class="col-12">
+                <div class="timeline-item-dot" data-aos="flip-left"></div>
+                <div class="" data-aos="zoom-out-left">
+                  <h5>This is the title of the item</h5>
+                  <p>
+                    Lorem ipsum text would sit here because this would be an
+                    item
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="animation">
+            <div class="row">
+              <div class="col-12">
+                <div class="timeline-item-dot" data-aos="flip-left"></div>
+                <div class="card exp-card" data-aos="zoom-out-left">
+                  <h5>This is the title of the item</h5>
+                  <p>
+                    Lorem ipsum text would sit here because this would be an
+                    item
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="animation">
+            <div class="row">
+              <div class="col-12">
+                <div class="timeline-item-dot" data-aos="flip-left"></div>
+                <div class="" data-aos="zoom-out-left">
+                  <h5>This is the title of the item</h5>
+                  <p>
+                    Lorem ipsum text would sit here because this would be an
+                    item
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</div>
-</div></div>
-</footer>
+    <footer>
+      <div class="h-100" id="footer-container">
+        <div class="row h-100" id="footer-row">
+          <div class="col-12 col-md-6 d-flex">
+            <p class="my-auto" id="copyright">
+              Copyright Bradley Cooney 2020 <i class="far fa-copyright"></i>
+            </p>
+          </div>
+          <div class="col-12 col-md-6 d-flex" id="footer-social-btns">
+            <p class="my-auto">
+              <a href="mailto:bradleyh.cooney@gmail.com">Contact me</a>
+            </p>
+            <a href="https://github.com/bradleyhc" target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/bradleycooney/" target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script>
       if ($(window).width() > 992) {
         $(window).scroll(function () {
@@ -122,7 +237,18 @@
             $(".navbar").addClass("flex-column");
           }
         });
-      } 
+      }
+    </script>
+
+    <script>
+      AOS.init({
+        easing: "ease-out-back",
+        duration: 1000,
+      });
+
+      $(function () {
+  $('[data-toggle="popover"]').popover()
+})
     </script>
   </body>
 </html>
