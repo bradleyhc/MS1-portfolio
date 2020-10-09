@@ -8,7 +8,7 @@
 }
 
 .black-text-on-white-bg {
-    color: #000;
+    color: #1b1b1b;
 }
 
 
@@ -156,6 +156,8 @@ section.clear-navbar {
     animation-name: loadCards;
     animation-fill-mode: forwards;
     animation-duration: 4s;
+    animation-delay: 0.2;
+animation-iteration-count: 1
     
 }
 
@@ -490,7 +492,7 @@ margin-left: 50px;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; background-color: rgb(10,0,91);
+    background-position: center; background-color: #1b1b1b;
     background-attachment: fixed;
 }
 
@@ -591,11 +593,11 @@ transform: translateX(-20%)
 }
 .skill-decent {
     background-color: #1096005e;
-    color: #000;
+    color: #1b1b1b;
 }
 .skill-ok {
     background-color: #ff855799;
-    color: #000;
+    color: #1b1b1b;
 }
 
 /* ------ END -------  SKILLS & EXPERIENCE PAGE   */
@@ -637,7 +639,48 @@ width: min-content;
 
 
 /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) { 
+    #footer-container {
+    padding: 30px 50px;
+}
+section {
+    padding: 30px 15px;
+}
+
+.card {
+    margin-bottom: 20px
+}
+
+.card-btns {
+    margin: auto;
+}
+
+.center-on-mob {
+    text-align: center
+}
+
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px
+}
+
+#homepage-right-about {
+    display: none;
+}
+
+#homepage-title {
+    transform: translateY(0%)!important;
+}
+
+.nav-item {
+    width: 100px;
+    height: auto;
+    padding: 40px 0px
+}
+
+}
 
 /* Small devices (landscape phones, less than 768px)*/
 @media (max-width: 812.98px) { 
@@ -659,7 +702,9 @@ width: min-content;
 
 .clear-navbar {
     display: none
-}
+}}
+
+
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
