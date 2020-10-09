@@ -92,6 +92,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/ - mobile navbar
+https://www.nicesnippets.com/snippet/web-page-scroll-animation-demo-usign-aos-and-bootstrap-4 - fade in timeline
 
 ### Content
 

@@ -96,7 +96,7 @@ button, button:focus {
     margin: 0;
 }
 
-.btn-primary {
+.btn-primary, .btn-primary:focus {
     background-color: #fff;
     border: 2px solid #3462ff;
     box-shadow: 1px 1px 4px 0px #888888;
@@ -111,16 +111,16 @@ button, button:focus {
     border-color: #f4561b;
 }
 
-.btn-secondary {
-    background-color: #fff;
+.btn-secondary, .btn-secondary:focus {
+    background-color: #f4561b;
     border: 2px solid #f4561b;
     box-shadow: 1px 1px 4px 0px #888888;
     padding: 10px 15px;
 }
 
 .btn-secondary:hover {
-    background-color: #f4561b;
-    color: #fff;
+    background-color: #fff;
+    color: #f4561b;
     box-shadow: 1px 1px 4px 1px #888888;
     border-color: #f4561b;
 }
@@ -209,6 +209,37 @@ animation-iteration-count: 1
     border-radius: 40px
 }
 
+
+.form-control {
+    margin: 25px 0px;
+    transition: 0.7s ease-in-out;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #adb5bd
+}
+
+.form-control:focus {
+    color: #1b1b1b;
+    background-color: #fff;
+    outline: 0;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 2px solid #f4561b;
+    box-shadow: 1px 1px 5px #cccccc;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #adb5bd;
+}
+
+.modal-content {
+    border: none;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 6px #565656;
+}
 
 
 /* Nav */
@@ -600,6 +631,11 @@ transform: translateX(-20%)
     color: #1b1b1b;
 }
 
+.timeline-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+
 /* ------ END -------  SKILLS & EXPERIENCE PAGE   */
 
 /* More Info Pages */
@@ -635,6 +671,9 @@ width: min-content;
     transform: rotate(75deg);
     margin: 10px 0px;
 }
+
+
+
 /* MEDIA QUERIES */
 
 
