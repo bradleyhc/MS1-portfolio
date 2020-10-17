@@ -52,6 +52,13 @@ body {
     overflow-x: auto
 }
 
+a {
+    color: #f4561b;
+}
+
+a:hover {
+    color: #3462ff;
+}
 section {
     padding: 100px;
     
@@ -68,9 +75,12 @@ footer {
     width: 100%;
 }
 
+footer a {
+    color: #fff;
+}
+
 a, a:hover {
     text-decoration: none;
-    color: inherit;
 }
 
 .no-padding {
@@ -94,6 +104,7 @@ button, button:focus {
     border: none;
     padding: 0;
     margin: 0;
+    background-color: transparent
 }
 
 .btn-primary, .btn-primary:focus {
@@ -156,7 +167,7 @@ section.clear-navbar {
     animation-name: loadCards;
     animation-fill-mode: forwards;
     animation-duration: 4s;
-    animation-delay: 0.2;
+    animation-delay: 0.2s;
 animation-iteration-count: 1
     
 }
@@ -251,6 +262,9 @@ animation-iteration-count: 1
     flex-direction: row
 }
 
+.navbar a {
+    color: #1b1b1b
+}
 
 ul > li > a {
     text-decoration: none;
@@ -558,7 +572,7 @@ margin-left: 50px;
 }
 
 #show-about-on-hover:hover > div#homepage-title > h1 {
-transform: translateX(-16%)
+transform: translateX(-10%)
 
 }
 
@@ -769,7 +783,9 @@ transform: translateX(0%)
  }
 
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { ... }
+@media (max-width: 1199.98px) {
+    
+ }
 
 
 
