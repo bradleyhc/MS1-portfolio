@@ -30,13 +30,13 @@
       </a>
       <ul class="navbar-nav m-auto" id="moreInfoNavUl">
         <li class="nav-item page-item">
-          <a href="skills.html"><i class="fas fa-graduation-cap"></i><span class="nav-header">Skill & Experience</span></a>
+          <a href="skills.html" class="active"><i class="fas fa-graduation-cap"></i><span class="nav-header">Skill & Experience</span></a>
         </li>
         <li class="nav-item page-item">
           <a href="portfolio.html"><i class="fas fa-desktop"></i><span class="nav-header">Portfolio</span></a>
         </li>
         <li class="nav-item">
-          <a href="about_me.html" class="active"><i class="fas fa-user"></i><span class="nav-header">About Me</span></a>
+          <a href="about_me.html" class=""><i class="fas fa-user"></i><span class="nav-header">About Me</span></a>
         </li>
       </ul>
       <ul class="navbar-nav m-auto" id="moreInfoNavbarBtns">
@@ -44,8 +44,8 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact me</button>
         </li>
         <li class="">
-          <a href="test.pdf" target="_blank">
-            <button type="button" class="btn btn-primary">Download CV</button>
+          <a href="demo_content.pdf" target="_blank">
+            <div class="btn btn-primary">Download CV</div>
           </a>
         </li>
       </ul>
@@ -54,14 +54,14 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact me</button>
         </li>
         <li class="">
-          <a href="test.pdf" target="_blank">
-            <button type="button" class="btn btn-primary">Download CV</button>
+          <a href="demo_content.pdf" target="_blank">
+            <div class="btn btn-primary">Download CV</div>
           </a>
         </li>
       </ul>
     </nav>
 
-    <nav id="moreInfoNav-mobile" class="navbar">
+    <nav id="moreInfoNav-mobile" class="navbar flex-row">
       <a href="index.html" id="logo-mobile">
         <div class="dark-text-on-white-bg">
           <h1>Bradley Cooney <i class="divider-slash fas fa-slash"></i></h1>
@@ -69,26 +69,26 @@
           <h2>Full-Stack Web Developer</h2>
         </div>
       </a>
-      <a
+      <div
         class="navbar-toggler toggler-example"
-        type="button"
+        role="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent1"
         aria-controls="navbarSupportedContent1"
         aria-expanded="false"
         aria-label="Toggle navigation"
         ><span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span
-      ></a>
+      ></div>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent1">
         <ul class="mobile-nav mr-auto">
-          <li class="">
+          <li class="active">
             <a class="nav-link" href="skills.html"><i class="mobile-nav-i fas fa-graduation-cap"></i> Skills & Experience<span class="sr-only">(current)</span></a>
           </li>
           <li class="">
             <a class="nav-link" href="portfolio.html"><i class="mobile-nav-i fas fa-desktop"></i> Portfolio</a>
           </li>
-          <li class="active">
+          <li class="">
             <a class="nav-link" href="about_me.html"><i class="mobile-nav-i fas fa-user"></i> About Me</a>
           </li>
           <li class="">
@@ -100,10 +100,11 @@
         </ul>
       </div>
     </nav>
-    <section class="clear-navbar grey-section"></section>
+
+    <div class="clear-navbar grey-section"></div>
     <section class="grey-section">
-      <article class="col-md-8 m-auto">
-        <h2>More about Bradley</h2>
+      <div class="col-md-12 col-lg-8 m-auto">
+        <h1>More about Bradley</h1>
         <p class="text-justify">
           After 6 successful years within a fast paced and intense Events industry, Covid-19 has somewhat disrupted the industry and caused agencies, clients and suppliers to rethink their offering.
           <br /><br />
@@ -124,7 +125,7 @@
           <button type="button" class="btn btn-secondary ml-auto mr-2" data-toggle="modal" data-target="#contactModal">Contact me</button>
           <a href="https://www.linkedin.com/in/bradleycooney/" target="_blank" class="btn btn-secondary mr-auto ml-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </div>
-      </article>
+      </div>
 
       <!-- CONTACT MODAL START -->
       <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
@@ -145,8 +146,8 @@
                 <input type="text" class="form-control" name="name" placeholder="Your name" required />
                 <input type="email" class="form-control" name="email" placeholder="Your email" required />
                 <input type="tel" class="form-control" name="phone" placeholder="Your phone number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
-                <input type="text" class="form-control" name="subject" id="" placeholder="Subject" required />
-                <textarea type="text" class="mb-5 form-control" name="message_body" placeholder="Your message" required></textarea>
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required />
+                <textarea class="mb-5 form-control" name="message_body" placeholder="Your message" required></textarea>
 
                 <input type="submit" class="btn btn-secondary" value="Send message" />
               </form>
@@ -158,12 +159,12 @@
       <!-- CONTACT MODAL END -->
     </section>
     <footer>
-      <div class="container h-100" id="footer-container">
+      <div class="h-100" id="footer-container">
         <div class="row h-100" id="footer-row">
-          <div class="col-12 col-md-6 d-flex">
+          <div class="col-12 col-md-12 col-lg-6 d-flex">
             <p class="my-auto" id="copyright">Copyright Bradley Cooney 2020 <i class="far fa-copyright"></i></p>
           </div>
-          <div class="col-12 col-md-6 d-flex" id="footer-social-btns">
+          <div class="col-12 col-md-12 col-lg-6 d-flex" id="footer-social-btns">
             <p class="my-auto"><a href="mailto:bradleyh.cooney@gmail.com">Contact me</a></p>
             <a href="https://github.com/bradleyhc" target="_blank"><i class="fab fa-github-square"></i></a>
             <a href="https://www.linkedin.com/in/bradleycooney/" target="_blank"><i class="fab fa-linkedin"></i></a>

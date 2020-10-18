@@ -53,8 +53,8 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact me</button>
         </li>
         <li class="">
-          <a href="test.pdf" target="_blank">
-            <button type="button" class="btn btn-primary">Download CV</button>
+          <a href="demo_content.pdf" target="_blank">
+            <div class="btn btn-primary">Download CV</div>
           </a>
         </li>
       </ul>
@@ -63,14 +63,14 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact me</button>
         </li>
         <li class="">
-          <a href="test.pdf" target="_blank">
-            <button type="button" class="btn btn-primary">Download CV</button>
+          <a href="demo_content.pdf" target="_blank">
+            <div class="btn btn-primary">Download CV</div>
           </a>
         </li>
       </ul>
     </nav>
 
-    <nav id="moreInfoNav-mobile" class="navbar">
+    <nav id="moreInfoNav-mobile" class="navbar flex-row">
       <a href="index.html" id="logo-mobile">
         <div class="dark-text-on-white-bg">
           <h1>Bradley Cooney <i class="divider-slash fas fa-slash"></i></h1>
@@ -78,16 +78,16 @@
           <h2>Full-Stack Web Developer</h2>
         </div>
       </a>
-      <a
+      <div
         class="navbar-toggler toggler-example"
-        type="button"
+        role="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent1"
         aria-controls="navbarSupportedContent1"
         aria-expanded="false"
         aria-label="Toggle navigation"
         ><span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span
-      ></a>
+      ></div>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent1">
         <ul class="mobile-nav mr-auto">
@@ -110,9 +110,9 @@
       </div>
     </nav>
 
-    <section class="clear-navbar grey-section"></section>
+    <div class="clear-navbar grey-section"></div>
     <section class="grey-section">
-      <div class="col-md-8 col-sm-12 m-auto">
+      <div class="col-12 col-lg-8 m-auto">
         <h1>Key Skills</h1>
         <p class="pb-3">
           Over a number of roles and interests in various industries, I have gathered a rich set of skills at varying degrees of competency. The below skills are categorised by: <br /><strong
@@ -124,7 +124,7 @@
         </p>
 
         <div class="mb-5 center-on-mob">
-          <button>
+          <div class="skill">
             <p
               class="badge skill-badge mr-2 skill-excellent"
               data-toggle="popover"
@@ -134,8 +134,8 @@
             >
               Project Management
             </p>
-          </button>
-          <button>
+          </div>
+          <div class="skill">
             <p
               class="badge skill-badge mr-2 skill-very-good"
               data-toggle="popover"
@@ -145,8 +145,8 @@
             >
               Event Production
             </p>
-          </button>
-          <button>
+          </div>
+          <div class="skill">
             <p
               class="badge skill-badge mr-2 skill-very-good"
               data-toggle="popover"
@@ -156,8 +156,8 @@
             >
               Adobe Illustrator
             </p>
-          </button>
-          <button>
+          </div>
+          <div class="skill">
             <p
               class="badge skill-badge mr-2 skill-excellent"
               data-toggle="popover"
@@ -167,8 +167,8 @@
             >
               Budget Management
             </p>
-          </button>
-          <button>
+          </div>
+          <div class="skill">
             <p
               class="badge skill-badge mr-2 skill-decent"
               data-toggle="popover"
@@ -178,8 +178,8 @@
             >
               Web & UX Design
             </p>
-          </button>
-          <button>
+          </div>
+          <div class="skill">
             <p
               class="badge skill-badge mr-2 skill-ok"
               data-toggle="popover"
@@ -189,8 +189,8 @@
             >
               Python
             </p>
-          </button>
-          <button>
+          </div>
+          <div class="skill">
             <p
               class="badge skill-badge mr-2 skill-decent"
               data-toggle="popover"
@@ -200,8 +200,8 @@
             >
               Javascript
             </p>
-          </button>
-          <button>
+          </div>
+          <div class="skill">
             <p
               class="badge skill-badge mr-2 skill-very-good"
               data-toggle="popover"
@@ -211,8 +211,8 @@
             >
               CSS3
             </p>
-          </button>
-          <button>
+          </div>
+          <div class="skill">
             <p
               class="badge skill-badge mr-2 skill-very-good"
               data-toggle="popover"
@@ -222,8 +222,8 @@
             >
               HTML5
             </p>
-          </button>
-          <button>
+          </div>
+          <div class="skill">
             <p
               class="badge skill-badge mr-2 skill-very-good"
               data-toggle="popover"
@@ -233,8 +233,8 @@
             >
               Client Management
             </p>
-          </button>
-          <button>
+          </div>
+          <div class="skill">
             <p
               class="badge skill-badge mr-2 skill-very-good"
               data-toggle="popover"
@@ -244,11 +244,11 @@
             >
               Supplier Management
             </p>
-          </button>
+          </div>
         </div>
       </div>
 
-      <div class="col-md-8 col-sm-12 m-auto">
+      <div class="col-12 col-lg-8 m-auto">
         <h1>Experience</h1>
         <p class="pb-3"></p>
         <div id="exp-timeline">
@@ -259,7 +259,13 @@
                 <div class="timeline-item" data-aos="zoom-out-left">
                   <h5>2020 to Present | <strong>Digital Producer, Events Agency</strong></h5>
                   <p>
-                    As the Covid-19 pandemic hit the events industry, my role as Producer shifted to a digitally focussed set of responsibilities. Through existing knowledge and interest in technology, the new role saw me building relationships and furthering my understanding in the virtual event platform market. My core responsibilities are now to manage client digital projects, from technical support on existing virtual programs, to working with designers and developers to create bespoke platform builds, from site concept, UX & UI design, to build, testing and management of the event program on the day of the show. <br><br> This role requires understanding of webRTC, RTMP video streaming and occasionally knowledge of API integrations available in the marketplace, and what can and cannot be utilised. This knowledge is utilised to recommend platforms to clients, as well as educate other team members and clients on platform limitations in certain cases.</p>
+                    As the Covid-19 pandemic hit the events industry, my role as Producer shifted to a digitally focussed set of responsibilities. Through existing knowledge and interest in
+                    technology, the new role saw me building relationships and furthering my understanding in the virtual event platform market. My core responsibilities are now to manage client
+                    digital projects, from technical support on existing virtual programs, to working with designers and developers to create bespoke platform builds, from site concept, UX & UI
+                    design, to build, demo_contenting and management of the event program on the day of the show. <br /><br />
+                    This role requires understanding of webRTC, RTMP video streaming and occasionally knowledge of API integrations available in the marketplace, and what can and cannot be utilised.
+                    This knowledge is utilised to recommend platforms to clients, as well as educate other team members and clients on platform limitations in certain cases.
+                  </p>
                 </div>
               </div>
             </div>
@@ -271,11 +277,14 @@
                 <div class="timeline-item" data-aos="zoom-out-left">
                   <h5>2019 to 2020 | <strong>Producer, Events Agency</strong></h5>
                   <p>
-                  The key responsibilities for this role centered around client and team management, with a specific focus on the program experience from a holistic level - working with our Strategy, Account and Creative Directors’ from the outset to analyse a client brief, refine through further questioning, before leading the development of a thorough creative response. 
+                    The key responsibilities for this role centered around client and team management, with a specific focus on the program experience from a holistic level - working with our
+                    Strategy, Account and Creative Directors’ from the outset to analyse a client brief, refine through further questioning, before leading the development of a thorough creative
+                    response.
 
-<br><br> After successfully pitching the proposal to client, my role was then to lead the project delivery team of varied skill and abilities, from Senior and Junior positions, to the execution of the event.
-
-</p>
+                    <br /><br />
+                    After successfully pitching the proposal to client, my role was then to lead the project delivery team of varied skill and abilities, from Senior and Junior positions, to the
+                    execution of the event.
+                  </p>
                 </div>
               </div>
             </div>
@@ -287,16 +296,16 @@
                 <div class="" data-aos="zoom-out-left">
                   <h5>2015 to 2019 | <strong>Project Manager, Events Agency</strong></h5>
                   <p>
-                  Responsible as the project lead for the successful delivery of programs for a variety of clients such as VMware, Microsoft, Atos and New Balance. 
+                    Responsible as the project lead for the successful delivery of programs for a variety of clients such as VMware, Microsoft, Atos and New Balance.
 
-<br><br> Core competencies utilised within this role included the management of both Senior and Junior team members within the project team, from various departments (creative, F&B, technical, accounts, registration etc), client management and budget management up to $3m. 
-
+                    <br /><br />
+                    Core competencies utilised within this role included the management of both Senior and Junior team members within the project team, from various departments (creative, F&B,
+                    technical, accounts, registration etc), client management and budget management up to $3m.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-         
         </div>
       </div>
 
@@ -319,8 +328,8 @@
                 <input type="text" class="form-control" name="name" placeholder="Your name" required />
                 <input type="email" class="form-control" name="email" placeholder="Your email" required />
                 <input type="tel" class="form-control" name="phone" placeholder="Your phone number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
-                <input type="text" class="form-control" name="subject" id="" placeholder="Subject" required />
-                <textarea type="text" class="mb-5 form-control" name="message_body" placeholder="Your message" required></textarea>
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required />
+                <textarea class="mb-5 form-control" name="message_body" placeholder="Your message" required></textarea>
 
                 <input type="submit" class="btn btn-secondary" value="Send message" />
               </form>
@@ -335,13 +344,11 @@
     <footer>
       <div class="h-100" id="footer-container">
         <div class="row h-100" id="footer-row">
-          <div class="col-12 col-md-6 d-flex">
+          <div class="col-12 col-md-12 col-lg-6 d-flex">
             <p class="my-auto" id="copyright">Copyright Bradley Cooney 2020 <i class="far fa-copyright"></i></p>
           </div>
-          <div class="col-12 col-md-6 d-flex" id="footer-social-btns">
-            <p class="my-auto">
-              <a href="mailto:bradleyh.cooney@gmail.com">Contact me</a>
-            </p>
+          <div class="col-12 col-md-12 col-lg-6 d-flex" id="footer-social-btns">
+            <p class="my-auto"><a href="mailto:bradleyh.cooney@gmail.com">Contact me</a></p>
             <a href="https://github.com/bradleyhc" target="_blank"><i class="fab fa-github-square"></i></a>
             <a href="https://www.linkedin.com/in/bradleycooney/" target="_blank"><i class="fab fa-linkedin"></i></a>
           </div>
