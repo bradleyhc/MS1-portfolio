@@ -22,7 +22,7 @@ font-family: 'Kumbh Sans', sans-serif;
 
 h1 {
     font-size: 50px;
-font-weight: 600
+    font-weight: 600;
 }
 
 p {
@@ -706,6 +706,10 @@ section {
     padding: 30px 15px;
 }
 
+.grey-section {
+    padding: 30px 15px;
+}
+
 .card {
     margin-bottom: 20px
 }
@@ -734,7 +738,7 @@ h2 {
 }
 
 .nav-item {
-    width: 100px;
+    width: 90px;
     height: auto;
     padding: 40px 0px
 }
