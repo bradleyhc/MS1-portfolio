@@ -49,7 +49,8 @@ body {
     padding: 0;
     margin: 0;
     width: 100vw; 
-    overflow-x: auto
+    overflow-x: auto;
+    background-color: #f1f1f1;
 }
 
 a {
@@ -70,7 +71,7 @@ section {
 }
 
 footer {
-    
+    position: absolute;
     bottom: 0px;
     background: linear-gradient(160deg, rgba(244,86,27,1) 40%, rgba(248,140,100,1) 100%);
     width: 100%;
@@ -139,6 +140,10 @@ button, button:focus {
 
 .clear-navbar {
     padding-top: 195px;
+}
+
+.clear-footer {
+    padding-bottom: 200px;
 }
 
 #footer-container {
@@ -754,6 +759,10 @@ h2 {
 
 #footer-row > div {
     padding: 0px
+}
+
+.clear-footer {
+    padding-bottom: 200px;
 }
 
 }
