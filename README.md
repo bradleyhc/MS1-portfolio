@@ -17,10 +17,6 @@ As a recruiter, I want to quickly find out information about the site owner, and
 
 <img src="./documentation/screenshots/MS1-skills.png" style="margin: 0;">
 
-<!--The first end user type for this website will be recruiters who are looking for developers on behalf of their clients. As a less technical user, their primary objective when visiting the site, is to understand whether the site owner is a suitable candidate for a client's role, based on the criteria set out.
-
-This user is likely to view many sites similar to this one, and therefore is likely to spend as little time as necessary to understand the site owners capabilities. To ensure that this user can meet their objectives quickly before they move on to other sites, this site needs to help the user navigate the key areas as quickly and efficiently as possible.-->
-
 ### User story - non-technical hiring manager
 
 As a non-technical hiring manager, I am going to be looking for a skill set that meets the criteria set out by a technical colleague. Once I have confirmed whether the site owner has these skills, my focus will then be on the soft skills the owner posesses - understanding more about how they work with people as part of a team and whether they would be a good culture fit for the organisation. If I am satisfied
@@ -41,14 +37,6 @@ Like recruiters, I want to be able to quickly understand whether the site owner 
 As site owner, I want to be able to promote my key skills and experience to potential employers and those users who are in need of a Full-stack Developer. I want end-users of the site to be able to quickly, but accurately, make a decision on my suitability for their organisation. I also want users to contact me before they leave the site to ensure I do not miss out on potential work opportunities.
 <img src="./documentation/screenshots/MS1-contact.png" style="margin: 0;">
 
-<!--
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
--->
 
 <br>
 
@@ -204,11 +192,6 @@ Test:
 
 ### Browser & Device Compatibility
 
-<!-- To fix:
-> Breakpoint on tablet for portfolio
-> Remove padding on tablet devices - all pages
-
--->
 
 The site has been tested across the latest browser versions of Chrome, Safari, Firefox. In addition, it has been tested for phone and tablet, on both Chrome developer tools, as well as from mobile browsers using the deployed GitHub pages site.
 
@@ -223,26 +206,7 @@ For mobile, the following changes have been made to optimise usability:
 
 - Non-technical friends and colleagues were asked to test the UI as a user and report usability or styling concerns
 - Technical peers within the Code Institute program were also asked to review the site. From a technical perspective they offered fixes and improvements which have now been implemented
-<!--
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-   1. Go to the "Contact Us" page
-   2. Try to submit the empty form and verify that an error message about the required fields appears
-   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-   4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
--->
 <br>
 
 ---
