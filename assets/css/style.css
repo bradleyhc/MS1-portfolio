@@ -195,7 +195,7 @@ animation-iteration-count: 1
 }
 
 .portfolio-card:hover {
-    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
     box-shadow: 1px 1px 6px 0px #888888;
 
 }
@@ -434,7 +434,8 @@ margin-left: 50px;
 #moreInfoNav-mobile {
     padding: 20px;
     box-shadow: 0px 1px 6px #888888;
-    display: none
+    display: none;
+    background-color: #fff;
 }
 
 #logo-mobile {
@@ -652,7 +653,7 @@ div.skill {
     color: #1b1b1b;
 }
 .skill-ok {
-    background-color: #ff855799;
+    background-color: #ffea5799;
     color: #1b1b1b;
 }
 
@@ -812,18 +813,22 @@ transform: translateX(0%)
 .navbar-nav {
     flex-direction: row!important;
 }
+
  }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-    
+    #moreInfoNavbarBtns-right li {
+    margin: auto;
+    padding: 25px 5px;    
+}
  }
 
 
 
 
 /* ANIMATIONS */
-@-webkit-keyframes loadCards {
+@keyframes loadCards {
     from {visibility: hidden;
     opacity: 0;
     transform: translateY(50%);
