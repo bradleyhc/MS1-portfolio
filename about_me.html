@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="assets/images/fav_white.png" type="image/x-icon" />
     <title>About Bradley</title>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"
-    />
+      />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
@@ -23,7 +22,6 @@
       <a href="index.html">
         <div class="dark-text-on-white-bg center" id="info-page-title" style="position: absolute;">
           <h1 class="bold">Bradley Cooney <i class="divider-slash fas fa-slash"></i></h1>
-
           <h2>Full-Stack Web Developer</h2>
         </div>
       </a>
@@ -43,7 +41,7 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact me</button>
         </li>
         <li class="">
-          <a href="./assets/demo_content.pdf" target="_blank">
+          <a href="./assets/BradleyCooney_CV.pdf" target="_blank">
             <div class="btn btn-primary">Download CV</div>
           </a>
         </li>
@@ -53,18 +51,16 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact me</button>
         </li>
         <li class="">
-          <a href="./assets/demo_content.pdf" target="_blank">
+          <a href="./assets/BradleyCooney_CV.pdf" target="_blank">
             <div class="btn btn-primary">Download CV</div>
           </a>
         </li>
       </ul>
     </nav>
-
     <nav id="moreInfoNav-mobile" class="navbar flex-row">
       <a href="index.html" id="logo-mobile">
         <div class="dark-text-on-white-bg">
           <h1>Bradley Cooney <i class="divider-slash fas fa-slash"></i></h1>
-
           <h2>Full-Stack Web Developer</h2>
         </div>
       </a>
@@ -77,8 +73,7 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
         ><span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span
-      ></div>
-
+        ></div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent1">
         <ul class="mobile-nav mr-auto">
           <li >
@@ -99,7 +94,6 @@
         </ul>
       </div>
     </nav>
-
     <div class="clear-navbar grey-section"></div>
     <section class="grey-section clear-footer">
       <div class="col-md-12 col-lg-8 m-auto">
@@ -125,7 +119,6 @@
           <a href="https://www.linkedin.com/in/bradleycooney/" target="_blank" class="btn btn-secondary mr-auto ml-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </div>
       </div>
-
       <!-- CONTACT MODAL START -->
       <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -133,7 +126,7 @@
             <div class="modal-header">
               <h2 class="modal-title" id="contactModalLabel">Send me an email</h2>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+              <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
@@ -147,14 +140,12 @@
                 <input type="tel" class="form-control" name="phone" placeholder="Your phone number (e.g +44)" pattern="[+]{1}[0-9]{2}[0-9]{10}" required aria-label="your number" />
                 <input type="text" class="form-control" name="subject" placeholder="Subject" required  aria-label="the subject"/>
                 <textarea class="mb-5 form-control" name="message_body" placeholder="Your message" required  aria-label="your message"></textarea>
-
                 <input type="submit" class="btn btn-secondary" value="Send message"  aria-label="submit"/>
               </form>
             </div>
           </div>
         </div>
       </div>
-
       <!-- CONTACT MODAL END -->
     </section>
     <footer>
@@ -165,13 +156,12 @@
           </div>
           <div class="col-12 col-md-12 col-lg-6 d-flex" id="footer-social-btns">
             <p class="my-auto"><a href="mailto:bradleyh.cooney@gmail.com">Email me</a></p>
-            <a href="https://github.com/bradleyhc" target="_blank"><i class="fab fa-github-square" aria-hidden="true"></i><span style="visibility:hidden;position: absolute;">GitHub</span></a>
-            <a href="https://www.linkedin.com/in/bradleycooney/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i><span style="visibility:hidden;position: absolute;">LinkedIn</span></a>
+            <a href="https://github.com/bradleyhc" target="_blank"><i class="fab fa-github-square" aria-hidden="true"></i><span class="sr-only">GitHub</span></a>
+            <a href="https://www.linkedin.com/in/bradleycooney/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
           </div>
         </div>
       </div>
     </footer>
-
     <script>
       if ($(window).width() > 992) {
         $(window).scroll(function () {
