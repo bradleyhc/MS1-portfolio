@@ -7,11 +7,40 @@ This website has been created to demonstrate to recruiters and potential employe
 
 # **UX Design**
 
-The UX of this site has been designed with user ease and simplicity in mind. As a portfolio website designed to demonstrate the key skills of the site owner, it is important that end-users are not overwhelmed with too many options and paths to collect the information they are on the site to gather, as this may illicit a negative emotional response, causing them to abandon the site.
+The UX of this site has been designed with user ease and simplicity in mind.
+As a portfolio website designed to demonstrate the key skills of myself, as the site owner, it is important that end-users are not overwhelmed with too many options and paths to collect the information they are on the site to gather, as this may illicit a negative emotional response, causing them to abandon the site.
 
 <br>
 
-### User Story - Recruiter
+## **User Stories**
+
+The anticipated site users can be classified as both technical and non-technical professionals who are either looking to recruit Full-Stack Developers directly or for their client / colleague, or users who are looking to have a site built. These users share a number of goals, as well as have their own specific goals, as outlined below:
+
+1. **First Time User Goals**
+   - As a first time user, I want to be able to quickly check the site owner’s skills and expertise against a predetermined set of criteria.
+   - As a first time user, I want to be impressed by the visual aesthetics and functionality of this site, and have confidence that the site owner could create something similar for me, my organisation, or my client.
+   - As a first time user, I want to be able to contact the site owner for potential work opportunities.
+
+1. **Technical Hirer Goals**
+    - As a technical hirer, I want to be able to view the site owner’s aptitude for each skill.
+    - As a technical hirer, I want to be able to view the site owner’s other projects and portfolio.
+    - As a technical hirer, I want to be able to locate and view the site owner’s GitHub profile to establish their code writing competence.
+
+
+1. **Non-technical Hirer Goals**
+    - As a non-technical hirer, I want to be able to view the site owner’s soft-skills and understand what experience they have.
+    - As a non-technical hirer, I want to view the site owner’s LinkedIn profile so I can see their work history.
+    - As a non-technical hirer, I want to be able to print or quickly share the site owner's CV with others if applicable.
+
+
+1. **Site Owner Goals**
+   - As site owner, I want to elicit a positive emotional response when users first land on the site
+   - As site owner, I want users to quickly discover my key skills and capabilities, before their attention is drawn from the site.
+   - As site owner, I want users to contact me with ease for possible work opportunities.
+
+
+
+<!-- ### User Story - Recruiter
 
 As a recruiter, I want to quickly find out information about the site owner, and understand whether they have the key capabilities determined by my client's requirements, making them suitable for the role. I am not a technical user, and therefore it's important that I can compare the skills listed with the brief provided to me by my client. Any advanced technical language or lack of clarity in expertise is likely to deter me from this site as I have many other sites to view in a short period of time. I want to very quickly make a decision on whether the site owner is suitable for the role.
 
@@ -35,8 +64,7 @@ Like recruiters, I want to be able to quickly understand whether the site owner 
 ### User story - The site owner
 
 As site owner, I want to be able to promote my key skills and experience to potential employers and those users who are in need of a Full-stack Developer. I want end-users of the site to be able to quickly, but accurately, make a decision on my suitability for their organisation. I also want users to contact me before they leave the site to ensure I do not miss out on potential work opportunities.
-<img src="./documentation/screenshots/MS1-contact.png" style="margin: 0;">
-
+<img src="./documentation/screenshots/MS1-contact.png" style="margin: 0;"> -->
 
 <br>
 
@@ -123,7 +151,7 @@ The codebase is written in HTML5, with CSS3. In addition to core CSS, it also ut
 
 <strong>Other</strong>
 
-- <a  target="_blank" href="https://github.com">GitHub</a> - used for version control, hosting of codebase and deploying live website on GitPages
+- <a  target="_blank" href="https://github.com">GitHub</a> - used for version control, hosting of codebase and deploying live website on GitHub Pages
 - <a  target="_blank" href="https://gitpod.io">GitPod</a> - used as code editor, connected with GitHub to push commits directly to GitHub repository
 - <a  target="_blank" href="https://balsamiq.com">Balsamiq</a> - used to create wireframes for project
 
@@ -151,7 +179,95 @@ The results from both can be seen below:
 
 ### User story testing
 
-Goal: Quickly check off skill set criteria based on client requirements, and contact site owner if criteria met (Recruiter, Technical Hiring Manager, Site Owner for contact form).
+Each of the user goals noted above in the User Experience have been tested to ensure they can be achieved through technical testing and peer / user review. The details of each are outlined below.
+
+<br>
+
+### 1. **First Time User Goals**
+   
+> As a first time user, I want to be able to quickly check the site owner’s skills and expertise against a predetermined set of criteria.        
+
+1. This is achieved by a clearly identifiable 'Skill & Experience' navigation item.  
+2. On the 'Skill & Experience' page, users can clearly see above the fold the skills the site owner has  
+
+<img alt="homepage_nav" src="./documentation/screenshots/MS1-homepage.png" width="50%"><img alt="homepage_nav" src="./documentation/screenshots/MS1-skills.png" width="50%">
+
+> As a first time user, I want to be impressed by the visual aesthetics and functionality of this site, and have confidence that the site owner could create something similar for me, my organisation, or my client.
+
+- This is achieved by a clear, uncluttered homepage with a striking, colourful background image that focusses the user eye to the center of the screen and the subsequent navigation.
+- The user can also see a quick summary of the site owner by hovering on the name / title
+
+<img alt="homepage_nav" src="./documentation/screenshots/MS1-home_hover.png">
+
+> As a first time user, I want to be able to contact the site owner for potential work opportunities.
+1. Click on 'Contact Me' in navbar to open a contact form.  
+    1. Try to complete the form without entering required fields. Form should not submit.    
+    2. Try to complete the form with text only data, but 'Phone' and 'Email' should fail, requiring valid number and character formatting.   
+    3. Try to complete form with data in required fields and as per input formats.   
+2. If successful, the page should refresh back to the current page.
+
+<img alt="form-error" src="./documentation/screenshots/MS1-form-error-empty.png" width="50%"><img alt="form-error-format" src="./documentation/screenshots/MS1-form-error-format.png" width="50%">
+
+<br>
+
+### 2. **Technical Hirer Goals**
+> As a technical hirer, I want to be able to view the site owner’s aptitude for each skill.     
+
+1. Check skill set by clicking on 'Skills' page.
+1. Click on each skill to establish aptitude for each skill.
+
+<img alt="skills-description" src="./documentation/screenshots/MS1-skillsdesc.png">
+
+> As a technical hirer, I want to be able to view the site owner’s other projects and portfolio.
+1. The user can achieve this by clicking on the 'Portfolio' nav item
+    1. Click on project card title or image
+    1. This should open a new tab called 'Dummy Content' to ensure the test link worked (future releases will feature real project deployments).
+
+<img alt="portfolio" src="./documentation/screenshots/MS1-portfolio.png">
+
+> As a technical hirer, I want to be able to locate and view the site owner’s GitHub profile to establish their code writing competence.
+1. The user can achieve this by clicking on any of the 'GitHub Repo' call to action buttons on each project card, or by clicking the GitHub icon in the footer 
+    1. Click on the button 'GitHub Repo'
+    1. If successful, a new tab will open showing the Git Profile
+    1. Click on the LinkedIn icon in the footer
+       1. If successful, a new tab will open showing the LinkedIn Profile
+
+
+<img alt="portfolio" src="./documentation/screenshots/MS1-github-links.png">
+<br>
+
+### 3. **Non-technical Hirer Goals**
+> As a non-technical hirer, I want to be able to view the site owner’s soft-skills and understand what experience they have.
+1. Users can achieve this by clicking on the 'Skill & Experience' page and scrolling down to the experience timeline.
+    1. The timeline should populate three entries as the user scrolls
+1. The user can also view the personal statement of the site owner by clicking on the 'About Me' nav item
+
+<img alt="experience" src="./documentation/screenshots/MS1-skills2.png" width="50%"><img alt="about" src="./documentation/screenshots/MS1-about.png" width="50%">
+
+> As a non-technical hirer, I want to view the site owner’s LinkedIn profile so I can see their work history.
+1. This can be achieved by clicking the LinkedIn icon in the footer, or the call to action button at the bottom of the 'About Me' page
+
+> As a non-technical hirer, I want to be able to print or quickly share the site owner's CV with others if applicable.
+1. This is achieved with the clear 'Download CV' button in the navbar.
+    1. Click on 'Download CV' in navbar.
+    1. New tab should open to show 'Bradley Cooney CV' pdf if successful. This can then be downloaded or printed.
+
+<br>
+
+### 4. **Site Owner Goals**
+> As site owner, I want to elicit a positive emotional response when users first land on the site
+1. This is achieved by the clear, impactful homepage with a distinctly shows what content will be contained within the site, with the use of the laptop background image.
+
+> As site owner, I want users to quickly discover my key skills and capabilities, before their attention is drawn from the site.    
+1. The user can achieve this through a clear 'Skill & Experience' nav item on the homepage
+1. When the 'Skill & Experience' page loads, the user can immediately see the key skills with a bold heading and the list, above the fold. 
+1. The colour coding of the skills quickly informs the user which skills the site owner is stronger at and which have less experience.
+
+> As site owner, I want users to contact me with ease for possible work opportunities.
+1. This can be achieved with the clear call to action buttons in the header labelled 'Contact Me' and the 'Email Me' call to action in the footer.  
+
+
+<!-- Goal: Quickly check off skill set criteria based on client requirements, and contact site owner if criteria met (Recruiter, Technical Hiring Manager, Site Owner for contact form).
 
 Test:
 
@@ -187,13 +303,12 @@ Test:
    1. If successful, a new tab will open showing the Git Profile
 4. Click on the LinkedIn icon in the footer
    1. If successful, a new tab will open showing the LinkedIn Profile
-
+-->
 <br>
 
 ### Browser & Device Compatibility
 
-
-The site has been tested across the latest browser versions of Chrome, Safari, Firefox. In addition, it has been tested for phone and tablet, on both Chrome developer tools, as well as from mobile browsers using the deployed GitHub pages site.
+The site has been tested across the latest browser versions of Chrome, Safari, Firefox. In addition, it has been tested for phone and tablet, on both Chrome developer tools, as well as from mobile browsers using the deployed GitHub Pages site.
 
 For mobile, the following changes have been made to optimise usability:
 
@@ -215,21 +330,21 @@ For mobile, the following changes have been made to optimise usability:
 
 ## **Deployment**
 
-The live site is deployed on Gitpages as only frontend, static HTML & CSS files are required to be served to the user. 
+The live site is deployed on GitHub Pages as only frontend, static HTML & CSS files are required to be served to the user.
 
 The deployment was initiated following the below process:
+
 1. Within GitPod, files were committed and pushed to Github to create the initial commit
 2. In the GitHub repository, the GitPage was setup - first by clicking 'settings' at the top of the repo
-    -   Scroll to GitHub pages, create new
-    - Select the master branch and root folder settings, and ensure that 'enforce HTTPS' is checked
-3. Save the GitPages and after a page refresh, the link is available
+   - Scroll to GitHub Pages, create new
+   - Select the master branch and root folder settings, and ensure that 'enforce HTTPS' is checked
+3. Save the GitHub Pages and after a page refresh, the link is available
 4. The site takes 5 - 10 minutes to pull through
 5. After the site has been successfully deployed, each page is then tested against the development version to identify discrepancies such as styling errors or broken links
 
-
 The development environment exists within GitPod and all code is created, edited and pushed from the GitPod site.
 
-Common differences between the development site and production on GitPages are the folder path for images, which has been corrected upon testing on the live production deployment.
+Common differences between the development site and production on GitHub Pages are the folder path for images, which has been corrected upon testing on the live production deployment.
 
 <br>
 
