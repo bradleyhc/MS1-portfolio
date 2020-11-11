@@ -587,7 +587,7 @@ h2 {
 }
 
 #show-about-on-hover:hover>div#homepage-title>h1 {
-	transform: translateX(-10%)
+	transform: translateX(-16%)
 }
 
 #show-about-on-hover:hover>div#homepage-title>h2 {
@@ -722,7 +722,7 @@ div.skill {
 		padding: 30px 50px;
 	}
 	section {
-		padding: 30px 15px;
+		padding: 30px 15px!important;
 	}
 	.grey-section {
 		padding: 30px 15px;
@@ -788,6 +788,18 @@ div.skill {
 	.clear-navbar {
 		display: none
 	}
+    .fullpage-section {
+	padding: 20px 50px
+    }
+    #homepage-right-about {
+        display: none
+    }
+    #homepage-title {
+    transform: translateY(0%)!important;
+    }
+    h1 {
+    font-size: 40px;
+    }
 }
 
 

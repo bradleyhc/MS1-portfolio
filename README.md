@@ -175,7 +175,7 @@ The results from both can be seen below:
 
 - <a target="_blank" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbradleyhc.github.io%2FMS1-portfolio%2F">W3C HTML Validation Results</a>
 - <a target="_blank" href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbradleyhc.github.io%2FMS1-portfolio%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Jigsaw CSS Validator</a>
-  - The CSS validation is currently showing errors within CSS files that are imported into the website through CDN e.g Bootstrap. All local CSS errors have been fixed.
+  - The CSS validation is currently showing errors within CSS files that are imported into the website through CDN e.g Bootstrap and Fontawesome with the common error 'unknown vendor error', which is currently not possible to fix. All local CSS errors in 'assets/css/style.css' have been fixed.
 
 ### User story testing
 
@@ -194,17 +194,17 @@ Each of the user goals noted above in the User Experience have been tested to en
 
 > As a first time user, I want to be impressed by the visual aesthetics and functionality of this site, and have confidence that the site owner could create something similar for me, my organisation, or my client.
 
-- This is achieved by a clear, uncluttered homepage with a striking, colourful background image that focusses the user eye to the center of the screen and the subsequent navigation.
-- The user can also see a quick summary of the site owner by hovering on the name / title
+1. This is achieved by a clear, uncluttered homepage with a striking, colourful background image that focusses the user eye to the center of the screen and the subsequent navigation.
+1. The user can also see a quick summary of the site owner by hovering on the name / title
 
 <img alt="homepage_nav" src="./documentation/screenshots/MS1-home_hover.png">
 
 > As a first time user, I want to be able to contact the site owner for potential work opportunities.
 1. Click on 'Contact Me' in navbar to open a contact form.  
     1. Try to complete the form without entering required fields. Form should not submit.    
-    2. Try to complete the form with text only data, but 'Phone' and 'Email' should fail, requiring valid number and character formatting.   
-    3. Try to complete form with data in required fields and as per input formats.   
-2. If successful, the page should refresh back to the current page.
+    1. Try to complete the form with text only data, but 'Phone' and 'Email' should fail, requiring valid number and character formatting.   
+    1. Try to complete form with data in required fields and as per input formats.   
+    1. If successful, the page should refresh back to the current page.
 
 <img alt="form-error" src="./documentation/screenshots/MS1-form-error-empty.png" width="50%"><img alt="form-error-format" src="./documentation/screenshots/MS1-form-error-format.png" width="50%">
 
@@ -229,9 +229,6 @@ Each of the user goals noted above in the User Experience have been tested to en
 1. The user can achieve this by clicking on any of the 'GitHub Repo' call to action buttons on each project card, or by clicking the GitHub icon in the footer 
     1. Click on the button 'GitHub Repo'
     1. If successful, a new tab will open showing the Git Profile
-    1. Click on the LinkedIn icon in the footer
-       1. If successful, a new tab will open showing the LinkedIn Profile
-
 
 <img alt="portfolio" src="./documentation/screenshots/MS1-github-links.png">
 <br>
@@ -246,6 +243,8 @@ Each of the user goals noted above in the User Experience have been tested to en
 
 > As a non-technical hirer, I want to view the site owner’s LinkedIn profile so I can see their work history.
 1. This can be achieved by clicking the LinkedIn icon in the footer, or the call to action button at the bottom of the 'About Me' page
+    1. Click on the LinkedIn icon in the footer
+    1. If successful, a new tab will open showing the LinkedIn Profile
 
 > As a non-technical hirer, I want to be able to print or quickly share the site owner's CV with others if applicable.
 1. This is achieved with the clear 'Download CV' button in the navbar.
@@ -335,12 +334,12 @@ The live site is deployed on GitHub Pages as only frontend, static HTML & CSS fi
 The deployment was initiated following the below process:
 
 1. Within GitPod, files were committed and pushed to Github to create the initial commit
-2. In the GitHub repository, the GitPage was setup - first by clicking 'settings' at the top of the repo
-   - Scroll to GitHub Pages, create new
-   - Select the master branch and root folder settings, and ensure that 'enforce HTTPS' is checked
-3. Save the GitHub Pages and after a page refresh, the link is available
-4. The site takes 5 - 10 minutes to pull through
-5. After the site has been successfully deployed, each page is then tested against the development version to identify discrepancies such as styling errors or broken links
+1. In the GitHub repository, the GitPage was setup - first by clicking 'settings' at the top of the repo
+    1. Scroll to GitHub Pages, create new
+    1. Select the master branch and root folder settings, and ensure that 'enforce HTTPS' is checked
+1. Save the GitHub Pages and after a page refresh, the link is available
+1. The site takes 5 - 10 minutes to pull through
+1. After the site has been successfully deployed, each page is then tested against the development version to identify discrepancies such as styling errors or broken links
 
 The development environment exists within GitPod and all code is created, edited and pushed from the GitPod site.
 
