@@ -261,6 +261,9 @@ button:focus {
 	box-shadow: 2px 2px 6px #565656;
 }
 
+.height-100vh {
+    height: 100vh;
+}
 
 /* Nav */
 
@@ -722,7 +725,7 @@ div.skill {
 		padding: 30px 50px;
 	}
 	section {
-		padding: 30px 15px!important;
+		padding: 30px 15px;
 	}
 	.grey-section {
 		padding: 30px 15px;
