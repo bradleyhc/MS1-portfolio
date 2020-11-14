@@ -694,6 +694,7 @@ div.skill {
 	left: 0;
 	width: 100%;
 	transition: 0.7s ease-in-out;
+    z-index: 9;
 }
 
 #info-page-title h1 {
