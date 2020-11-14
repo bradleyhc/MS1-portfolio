@@ -1,3 +1,6 @@
+<img src="./documentation/screenshots/MS1-responsive-mockup.png" alt="responsiveness mockup">
+
+
 # MS1 - Bradley Cooney Portfolio Website
 
 This website has been created to demonstrate to recruiters and potential employers my key skills and experience in Full-Stack Web Development as the site owner.
@@ -5,10 +8,13 @@ This website has been created to demonstrate to recruiters and potential employe
 <a  target="_blank" href="https://bradleyhc.github.io/MS1-portfolio" />You can view the deployed site here</a>
 <br>
 
+
+- [Features](#Features)  
+
 # **UX Design**
 
 The UX of this site has been designed with user ease and simplicity in mind.
-As a portfolio website designed to demonstrate the key skills of myself, as the site owner, it is important that end-users are not overwhelmed with too many options and paths to collect the information they are on the site to gather, as this may illicit a negative emotional response, causing them to abandon the site.
+As a portfolio website designed to demonstrate the key skills of myself, as the site owner, it is important that end-users are not overwhelmed with too many options and paths to collect the information they are on the site to gather, as this may elicit a negative emotional response, causing them to abandon the site.
 
 <br>
 
@@ -82,15 +88,17 @@ The orange colour is used to help break up the page when there is lots of black 
 
 The 'Kumbh Sans' Google font is the main font used throughout the website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
 
-Kumbh Sans is a clean font used frequently in programming, so it is both attractive and appropriate.
+Kumbh Sans is a clean, contemporary and easy to read font that stands out to the user with it's bold, sans-serif qualities.
 
 <br>
 
 ### Imagery
 
-Imagery is important within UX design as it is typically the first impactful visual users see. The colours and context quickly set the tone for the rest of the site and provoke the first emotional response from the user. The large background hero image on this website is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+Imagery is important within UX design as it is typically the first impactful visual users see. The colours and context quickly set the tone for the rest of the site and provoke the first emotional response from the user. The large background hero image on this website's homepage is designed to be striking and catch the user's attention.
 
-Since the background image is a simple laptop image in a dark environment, the user's attention is immediately drawn to the colour in the center of the screen, with little distraction. The choice of image immediately informs the user that the website is related to development or technology. Positioning the nav icons and title in the foreground, enables users to see exactly what, in relation to Tech / Development, the site is about - a developer portfolio.
+Since the background image is a simple laptop in a dark environment, the user's attention is immediately drawn to the colour in the center of the screen, with little distraction. The choice of image immediately informs the user that the website is related to development or technology. 
+
+Positioning the nav icons and title in the foreground, enables users to see exactly what, in relation to Tech / Development, the site is about - a developer portfolio.
 
 <img src="./documentation/screenshots/MS1-homepage.png" style="margin: 0;">
 
@@ -98,7 +106,7 @@ Since the background image is a simple laptop image in a dark environment, the u
 
 You can view both the desktop and mobile wireframe <a  target="_blank" href="./documentation/MS1-BradleyCooney-Wireframe.pdf">here</a>
 
-The final site functionality and design follows the layout and intent shown within the wireframe with the exception of a few smaller functionality changes:
+The final site functionality and design follows the layout and intent shown within the wireframe, with the exception of a few smaller functionality changes:
 
 - The navbar was intended to be a tabulated so the skills / portfolio / about me page is only required to load once, with content shown when each nav icon is clicked. Since this functionality would require Javascript to implement, the decision was made to separate each section as a page instead.
 - The navbar icons no longer scale in size when page is selected. This feature was removed to improve useability, as the increased icon size would take up a considerable portion of the screen, requiring users to scroll down further to view all content.
@@ -179,7 +187,7 @@ The results from both can be seen below:
 
 ### User story testing
 
-Each of the user goals noted above in the User Experience have been tested to ensure they can be achieved through technical testing and peer / user review. The details of each are outlined below.
+To ensure they can be achieved, each of the user goals noted above in the User Experience section have been tested, both technically and through peer / user review. The details of each are outlined below.
 
 <br>
 
@@ -188,7 +196,7 @@ Each of the user goals noted above in the User Experience have been tested to en
 > As a first time user, I want to be able to quickly check the site owner’s skills and expertise against a predetermined set of criteria.        
 
 1. This is achieved by a clearly identifiable 'Skill & Experience' navigation item.  
-2. On the 'Skill & Experience' page, users can clearly see above the fold the skills the site owner has  
+2. On the 'Skill & Experience' page, users can clearly see above the fold the skills the site owner has.  
 
 <img alt="homepage_nav" src="./documentation/screenshots/MS1-homepage.png" width="50%"><img alt="homepage_nav" src="./documentation/screenshots/MS1-skills.png" width="50%">
 
@@ -236,15 +244,15 @@ Each of the user goals noted above in the User Experience have been tested to en
 ### 3. **Non-technical Hirer Goals**
 > As a non-technical hirer, I want to be able to view the site owner’s soft-skills and understand what experience they have.
 1. Users can achieve this by clicking on the 'Skill & Experience' page and scrolling down to the experience timeline.
-    1. The timeline should populate three entries as the user scrolls
-1. The user can also view the personal statement of the site owner by clicking on the 'About Me' nav item
+    1. The timeline should populate three entries as the user scrolls.
+1. The user can also view the personal statement of the site owner by clicking on the 'About Me' nav item.
 
 <img alt="experience" src="./documentation/screenshots/MS1-skills2.png" width="50%"><img alt="about" src="./documentation/screenshots/MS1-about.png" width="50%">
 
 > As a non-technical hirer, I want to view the site owner’s LinkedIn profile so I can see their work history.
-1. This can be achieved by clicking the LinkedIn icon in the footer, or the call to action button at the bottom of the 'About Me' page
-    1. Click on the LinkedIn icon in the footer
-    1. If successful, a new tab will open showing the LinkedIn Profile
+1. This can be achieved by clicking the LinkedIn icon in the footer, or the call to action button at the bottom of the 'About Me' page.
+    1. Click on the LinkedIn icon in the footer.
+    1. If successful, a new tab will open showing the LinkedIn Profile.
 
 > As a non-technical hirer, I want to be able to print or quickly share the site owner's CV with others if applicable.
 1. This is achieved with the clear 'Download CV' button in the navbar.
@@ -266,43 +274,6 @@ Each of the user goals noted above in the User Experience have been tested to en
 1. This can be achieved with the clear call to action buttons in the header labelled 'Contact Me' and the 'Email Me' call to action in the footer.  
 
 
-<!-- Goal: Quickly check off skill set criteria based on client requirements, and contact site owner if criteria met (Recruiter, Technical Hiring Manager, Site Owner for contact form).
-
-Test:
-
-1. Check skill set by clicking on 'Skills' page.
-2. Click on each skill to establish aptitude for each skill.
-3. Click on 'Contact Me' in navbar to open a contact form.
-   1. Try to complete the form without entering required fields. Form should not submit.
-   2. Try to complete the form with text only data, but 'Phone' and 'Email' should fail, requiring valid number and character formatting.
-   3. Try to complete form with data in required fields and as per input formats. Upon submitting form,
-      1. A new tab should open showing Code Institute data dump completion page to confirm successful submission.
-
-<br>
-Goal: Confirm skillset criteria matched, then review soft-skills, previous experience and download CV (Non-technical hiring manager).
-
-Test:
-
-1. Check skill set by clicking on 'Skills' page.
-2. Scroll down page to view 'Experience'.
-3. Each experience item should fade in as page scrolls down.
-4. Click on 'About Me' in Navbar - should show Body copy text under 'More about Bradley' header.
-5. Click on 'Download CV' in navbar.
-   1. New tab should open to show 'CI Assessment Guide' pdf (as dummy content) if successful.
-
-<br>
-Goal: Further review skills application through previous work (Technical Hiring Manager).
-
-Test:
-
-1. Go to 'Portfolio' page
-2. Click on project card title or image
-   1. This should open a new tab called 'Dummy Content' to ensure the test link worked.
-3. Click on the button 'GitHub Repo'
-   1. If successful, a new tab will open showing the Git Profile
-4. Click on the LinkedIn icon in the footer
-   1. If successful, a new tab will open showing the LinkedIn Profile
--->
 <br>
 
 ### Browser & Device Compatibility
@@ -313,8 +284,9 @@ For mobile, the following changes have been made to optimise usability:
 
 - Upon testing across screen sizes, it was discovered that the default Bootstrap 'col' class needed to be added for each screen breakpoint, to ensure items such as the portfolio cards are stacked vertically on mobile, vs horizontally on desktop and tablet.
 - The section padding has also been reduced for mobile to ensure easier readability with as reduced scrolling as possible.
-- Navbar compresses into 'hamburger nav' with a dropdown for menu items to reduce navbar screen real estate
-- Footer information is stacked vertically using Bootstrap 'col' classes to ensure page remains within screen width
+- Navbar compresses into 'hamburger nav' with a dropdown for menu items to reduce navbar screen real estate.
+- Footer information is stacked vertically using Bootstrap 'col' classes to ensure page remains within screen width.
+- Homepage further information section that shows when hovering on title was removed on smaller devices to ensure screen real estate is prioritised for the title and navbar.
 
 ### Further Testing
 
@@ -333,13 +305,13 @@ The live site is deployed on GitHub Pages as only frontend, static HTML & CSS fi
 
 The deployment was initiated following the below process:
 
-1. Within GitPod, files were committed and pushed to Github to create the initial commit
-1. In the GitHub repository, the GitPage was setup - first by clicking 'settings' at the top of the repo
-    1. Scroll to GitHub Pages, create new
-    1. Select the master branch and root folder settings, and ensure that 'enforce HTTPS' is checked
-1. Save the GitHub Pages and after a page refresh, the link is available
-1. The site takes 5 - 10 minutes to pull through
-1. After the site has been successfully deployed, each page is then tested against the development version to identify discrepancies such as styling errors or broken links
+1. Within GitPod, files were committed and pushed to GitHub to create the initial commit.
+1. In the GitHub repository, the GitHub Pages was setup - first by clicking 'settings' at the top of the repo.
+    1. Scroll to GitHub Pages, create new.
+    1. Select the master branch and root folder settings, and ensure that 'enforce HTTPS' is checked.
+1. Save the GitHub Pages and after a page refresh, the link is available.
+1. The site takes 5 - 10 minutes to pull through.
+1. After the site has been successfully deployed, each page is then tested against the development version to identify discrepancies such as styling errors or broken links.
 
 The development environment exists within GitPod and all code is created, edited and pushed from the GitPod site.
 
@@ -357,13 +329,13 @@ Common differences between the development site and production on GitHub Pages a
 
 The CSS and Javascript libraries uses within this site are:
 
-- Bootstrap Hamburger mobile navbar <strong>[MDBootstrap]</strong> - https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/
-- Bootstrap animations on scroll on experience page <strong>[Nice Snippets]</strong> - https://www.nicesnippets.com/snippet/web-page-scroll-animation-demo-usign-aos-and-bootstrap-4
-- JQuery library - https://jquery.com <br> - For the implementation of the AOS fade animation used on 'Experience' section
-- Bootstrap library - https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js <br> - For core Bootstrap interactivity such as modals and mobile navbar
-- Fontawesome - https://use.fontawesome.com/releases/v5.14.0/css/all.CSS <br> - For icons in Navbar and social icons (LinkedIn & GitHub)
-- Bootstrap - https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" <br> - As the core structural library. Base styles are then amended within the style.css file
-- Google Fonts - https://fonts.google.com/ <br> - Used to import fonts into CSS file
+- <a href="https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/">MDBootstrap</a> - Bootstrap Hamburger mobile navbar. 
+- <a href="https://www.nicesnippets.com/snippet/web-page-scroll-animation-demo-usign-aos-and-bootstrap-4">Nice Snippets</a> - Bootstrap animations on scroll on experience page. 
+- <a href="https://jquery.com">JQuery library</a> - For the implementation of the AOS fade animation used on 'Experience' section.
+- <a href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">Bootstrap library</a> - For core Bootstrap interactivity such as modals and mobile navbar.
+- <a href="https://use.fontawesome.com/releases/v5.14.0/css/all.CSS">Fontawesome</a> - For icons in Navbar and social icons (LinkedIn & GitHub).
+- <a href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">Bootstrap</a> - As the core structural library. Base styles are then amended within the style.css file.
+- <a href="https://fonts.google.com/">Google Fonts</a> - Used to import fonts into CSS file.
 
 ### Media
 
