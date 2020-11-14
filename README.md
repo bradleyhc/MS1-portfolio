@@ -11,14 +11,14 @@ This website has been created to demonstrate to recruiters and potential employe
 ### **Table of Contents**
 
 - [UX Design](#UX_Design)
-    - [User Stories](##User_Stories)
+    - [User Stories](#User-Stories)
     - [Design](#Design)
     - [Wireframes](#Wireframes)
 - [Features](#Features)
-- [Technologies Used](#Technologies_Used)
+- [Technologies Used](#Technologies-Used)
 - [Testing](#Testing)
-    - [User Story Testing](###User_Story_Testing)
-    - [Browser & Device Compatibility](###Browser_&_Device_Compatibility)
+    - [User Story Testing](#User-Story-Testing)
+    - [Browser & Device Compatibility](#Browser-&-Device-Compatibility)
 - [Deployment](#Deployment)
 - [Credits](#Credits)  
 
