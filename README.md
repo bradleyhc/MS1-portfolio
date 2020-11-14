@@ -275,6 +275,12 @@ For mobile, the following changes have been made to optimise usability:
 - Footer information is stacked vertically using Bootstrap 'col' classes to ensure page remains within screen width.
 - Homepage further information section that shows when hovering on title was removed on smaller devices to ensure screen real estate is prioritised for the title and navbar.
 
+### Known Issues
+- Testing the site pages on Chrome Dev tools Lighthouse, suggested that Accessibility and Best Practice were between 93 - 100%, but the Performance is below 90% on desktop and mobile. Dev Tools suggested fix is to 'Eliminate Render-blocking resources. This is due to the CDN Javascript, Font and Jquery that is being imported to run the site. Chrome Dev Tools suggests that this can be fixed with inline CSS for critical items. 
+- To avoid using inline CSS within the HTML files, future versions of this site may require that the CDN code is stored locally as files within the codebase, where this can be 'minified' to reduce response time by the browser.
+<img src="./documentation/screenshots/MS1-lighthouse.png" alt="lighthouse results">
+
+
 ### Further Testing
 
 - Non-technical friends and colleagues were asked to test the UI as a user and report usability or styling concerns

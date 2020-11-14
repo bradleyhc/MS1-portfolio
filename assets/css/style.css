@@ -204,6 +204,7 @@ button:focus {
 	box-shadow: 1px 1px 6px 0px #888888;
 }
 
+/* --- Card & modal styling are edits to existing Bootstrap library - https://www.bootstrapcdn.com/ --- */
 .card-title {
 	border-bottom: solid 4px #f4561b;
 	width: max-content;
