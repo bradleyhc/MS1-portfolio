@@ -18,6 +18,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
+    <!-- DESKTOP NAV START-->
     <nav class="black-text-on-white-bg navbar flex-column fixed-top" id="moreInfoNavbar">
       <a href="index.html">
         <div class="dark-text-on-white-bg center" id="info-page-title" style="position: absolute;">
@@ -27,7 +28,7 @@
       </a>
       <ul class="navbar-nav m-auto" id="moreInfoNavUl">
         <li class="nav-item page-item">
-          <a href="skills.html" ><i class="fas fa-graduation-cap"></i><span class="nav-header">Skill & Experience</span></a>
+          <a href="skills.html"><i class="fas fa-graduation-cap"></i><span class="nav-header">Skill & Experience</span></a>
         </li>
         <li class="nav-item page-item">
           <a href="portfolio.html"><i class="fas fa-desktop"></i><span class="nav-header">Portfolio</span></a>
@@ -37,26 +38,29 @@
         </li>
       </ul>
       <ul class="navbar-nav m-auto" id="moreInfoNavbarBtns">
-        <li class="">
+        <li>
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact me</button>
         </li>
-        <li class="">
-          <a href="./assets/demo_content.pdf" target="_blank">
+        <li>
+          <a href="./assets/BradleyCooney_CV.pdf" target="_blank">
             <div class="btn btn-primary">Download CV</div>
           </a>
         </li>
       </ul>
       <ul class="navbar-nav m-auto" id="moreInfoNavbarBtns-right">
-        <li class="">
+        <li>
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact me</button>
         </li>
-        <li class="">
-          <a href="./assets/demo_content.pdf" target="_blank">
+        <li>
+          <a href="./assets/BradleyCooney_CV.pdf" target="_blank">
             <div class="btn btn-primary">Download CV</div>
           </a>
         </li>
       </ul>
     </nav>
+    <!-- --- --- --- DESKTOP NAV END-->
+
+    <!-- MOBILE NAV START-->
     <nav id="moreInfoNav-mobile" class="navbar flex-row">
       <a href="index.html" id="logo-mobile">
         <div class="dark-text-on-white-bg">
@@ -72,28 +76,31 @@
         aria-controls="navbarSupportedContent1"
         aria-expanded="false"
         aria-label="Toggle navigation"
-        ><span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span
-        ></div>
+      >
+        <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
+      </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent1">
         <ul class="mobile-nav mr-auto">
-          <li >
+          <li>
             <a class="nav-link" href="skills.html"><i class="mobile-nav-i fas fa-graduation-cap"></i> Skills & Experience<span class="sr-only">(current)</span></a>
           </li>
-          <li class="">
+          <li>
             <a class="nav-link" href="portfolio.html"><i class="mobile-nav-i fas fa-desktop"></i> Portfolio</a>
           </li>
           <li>
             <a class="nav-link" href="about_me.html"><i class="mobile-nav-i fas fa-user"></i> About Me</a>
           </li>
-          <li class="">
-            <a class="nav-link" href="BradleyCooney_CV.pdf" target="_blank"><i class="mobile-nav-i fas fa-download"></i> Download CV</a>
+          <li>
+            <a class="nav-link" href="./assets/BradleyCooney_CV.pdf" target="_blank"><i class="mobile-nav-i fas fa-download"></i> Download CV</a>
           </li>
-          <li class="">
+          <li>
             <a class="nav-link" href="" data-toggle="modal" data-target="#contactModal"><i class="mobile-nav-i fas fa-envelope"></i> Contact Me</a>
           </li>
         </ul>
       </div>
     </nav>
+    <!-- --- --- --- MOBILE NAV END-->
+
     <div class="clear-navbar grey-section"></div>
     <section class="grey-section">
       <div class="col-md-12 col-lg-8 m-auto">
@@ -102,39 +109,7 @@
           This is a dummy content page to ensure the link worked - you should be seeing this page on a new tab. 
           As portfolio projects are added, they will link directly to the deployed site.
         </p>
-        <div class="mt-5 d-flex flex-row">
-          <button type="button" class="btn btn-secondary ml-auto mr-2" data-toggle="modal" data-target="#contactModal">Contact me</button>
-          <a href="https://www.linkedin.com/in/bradleycooney/" target="_blank" class="btn btn-secondary mr-auto ml-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        </div>
       </div>
-      <!-- CONTACT MODAL START -->
-      <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h2 class="modal-title" id="contactModalLabel">Send me an email</h2>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>
-                Have a new project in mind, or looking for a skilled developer to fit seamlessly into an existing team? Shoot over a message using the form below and I'll be back in touch in no time
-                at all!
-              </p>
-              <form action="https://formdump.codeinstitute.net/" target="_blank" method="POST">
-                <input type="text" class="form-control" name="name" placeholder="Your name" required />
-                <input type="email" class="form-control" name="email" placeholder="Your email" required />
-                <input type="tel" class="form-control" name="phone" placeholder="Your phone number (e.g +44)" pattern="[+]{1}[0-9]{2}[0-9]{10}" required />
-                <input type="text" class="form-control" name="subject" placeholder="Subject" required />
-                <textarea class="mb-5 form-control" name="message_body" placeholder="Your message" required></textarea>
-                <input type="submit" class="btn btn-secondary" value="Send message" />
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CONTACT MODAL END -->
     </section>
     <footer>
       <div class="h-100" id="footer-container">
