@@ -10,15 +10,16 @@ This website has been created to demonstrate to recruiters and potential employe
 
 ### **Table of Contents**
 
-- [UX Design](#UX_Design)
+- [UX Design](#UX-Design)
     - [User Stories](#User-Stories)
     - [Design](#Design)
     - [Wireframes](#Wireframes)
 - [Features](#Features)
 - [Technologies Used](#Technologies-Used)
 - [Testing](#Testing)
+    - [Validator Results](#Validator-Results)
     - [User Story Testing](#User-Story-Testing)
-    - [Browser & Device Compatibility](#Browser-&-Device-Compatibility)
+    - [Browser and Device Compatibility](#Browser-and-Device-Compatibility)
 - [Deployment](#Deployment)
 - [Credits](#Credits)  
 
@@ -262,7 +263,7 @@ To ensure they can be achieved, each of the user goals noted above in the User E
 
 <br>
 
-### Browser & Device Compatibility
+### Browser and Device Compatibility
 
 The site has been tested across the latest browser versions of Chrome, Safari, Firefox. In addition, it has been tested for phone and tablet, on both Chrome developer tools, as well as from mobile browsers using the deployed GitHub Pages site.
 
