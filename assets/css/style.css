@@ -331,6 +331,9 @@ ul>li>a>i {
 	text-decoration: none;
 	font-weight: 500;
 	text-shadow: none;
+}
+
+#moreInfoNavUl>li>a:hover>span {
 	border-bottom: 4px solid #3462ff;
 }
 
@@ -338,9 +341,13 @@ ul>li>a>i {
 a.active:hover {
 	color: #f4561b;
 	text-decoration: none;
-	text-shadow: 1px 1px 2px #dedede;
-	border-bottom: 4px solid #f4561b;
-	font-weight: initial;
+	font-weight: 600;
+    font-size: 20px;
+    line-height: 20px; 
+}
+#moreInfoNavUl>li>a.active>span{
+    border-bottom: 4px solid #f4561b;
+    padding-bottom: 10px;
 }
 
 #moreInfoNavUl>li>a.active:hover>i {
@@ -646,12 +653,12 @@ div.skill {
 }
 
 .skill-excellent {
-	background-color: #008000;
+	background-color: #006f00;
 	color: #fff;
 }
 
 .skill-very-good {
-	background-color: #329932;
+	background-color: #298229;
 	color: #fff;
 }
 
