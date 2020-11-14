@@ -8,8 +8,21 @@ This website has been created to demonstrate to recruiters and potential employe
 <a  target="_blank" href="https://bradleyhc.github.io/MS1-portfolio" />You can view the deployed site here</a>
 <br>
 
+### **Table of Contents**
 
-- [Features](#Features)  
+- [UX Design](#UX_Design)
+    - [User Stories](##User_Stories)
+    - [Design](#Design)
+    - [Wireframes](#Wireframes)
+- [Features](#Features)
+- [Technologies Used](#Technologies_Used)
+- [Testing](#Testing)
+    - [User Story Testing](###User_Story_Testing)
+    - [Browser & Device Compatibility](###Browser_&_Device_Compatibility)
+- [Deployment](#Deployment)
+- [Credits](#Credits)  
+
+<br>
 
 # **UX Design**
 
@@ -44,33 +57,6 @@ The anticipated site users can be classified as both technical and non-technical
    - As site owner, I want users to quickly discover my key skills and capabilities, before their attention is drawn from the site.
    - As site owner, I want users to contact me with ease for possible work opportunities.
 
-
-
-<!-- ### User Story - Recruiter
-
-As a recruiter, I want to quickly find out information about the site owner, and understand whether they have the key capabilities determined by my client's requirements, making them suitable for the role. I am not a technical user, and therefore it's important that I can compare the skills listed with the brief provided to me by my client. Any advanced technical language or lack of clarity in expertise is likely to deter me from this site as I have many other sites to view in a short period of time. I want to very quickly make a decision on whether the site owner is suitable for the role.
-
-<img src="./documentation/screenshots/MS1-skills.png" style="margin: 0;">
-
-### User story - non-technical hiring manager
-
-As a non-technical hiring manager, I am going to be looking for a skill set that meets the criteria set out by a technical colleague. Once I have confirmed whether the site owner has these skills, my focus will then be on the soft skills the owner posesses - understanding more about how they work with people as part of a team and whether they would be a good culture fit for the organisation. If I am satisfied
-that the site owner fulfills the criteria, then I would be looking to download or share the CV with a technical colleague, before contacting the site owner.
-
-<img src="./documentation/screenshots/MS1-skills2.png" style="margin: 0;">
-<img src="./documentation/screenshots/MS1-about.png" style="margin: 0;">
-
-### User story - technical hiring manager
-
-Like recruiters, I want to be able to quickly understand whether the site owner has the capabilities to join our organisation in the technical role we are hiring for. Whilst I also lack the time to read everything on the website, I have more of an understanding in technical language used, and whilst I cannot read everything, I would be looking to understand to what level the site owner can perform the skills shown to see how that would suit the role and compliment the other skills within the organisation. If the site owner's skills are of interest, then I want to be able to look into their previous work and code structure to validate the skills advertised.
-
-<img src="./documentation/screenshots/MS1-skillsdesc.png" style="margin: 0;">
-<img src="./documentation/screenshots/MS1-portfolio.png" style="margin: 0;">
-
-### User story - The site owner
-
-As site owner, I want to be able to promote my key skills and experience to potential employers and those users who are in need of a Full-stack Developer. I want end-users of the site to be able to quickly, but accurately, make a decision on my suitability for their organisation. I also want users to contact me before they leave the site to ensure I do not miss out on potential work opportunities.
-<img src="./documentation/screenshots/MS1-contact.png" style="margin: 0;"> -->
 
 <br>
 
