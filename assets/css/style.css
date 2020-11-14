@@ -446,7 +446,6 @@ a.active:hover {
 	visibility: hidden;
 }
 
-
 /* -------- -------- ------- ------- MORE INFO PAGES NAVBAR */
 
 #moreInfoNav-mobile {
@@ -567,8 +566,7 @@ a.active:hover {
 	background-attachment: fixed;
 }
 
-
-/* Homepage */
+/* HOMEPAGE */
 
 #homepage-title {
 	text-align: center;
@@ -607,7 +605,6 @@ h2 {
 #show-about-on-hover:hover>div#homepage-title {
 	transform: translateX(20%)
 }
-
 
 /*  SKILLS & EXPERIENCE PAGE   */
 
@@ -686,7 +683,7 @@ div.skill {
 /* ------ END -------  SKILLS & EXPERIENCE PAGE   */
 
 
-/* More Info Pages */
+/* MORE INFO PAGES */
 
 #info-page-title {
 	display: inline-flex;
@@ -723,7 +720,6 @@ div.skill {
 
 
 /* MEDIA QUERIES */
-
 
 /* Extra small devices (portrait phones, less than 576px)*/
 
@@ -778,7 +774,6 @@ div.skill {
 	}
 }
 
-
 /* Small devices (landscape phones, less than 768px)*/
 
 @media (max-width: 812.98px) {
@@ -812,7 +807,6 @@ div.skill {
     }
 }
 
-
 /* Medium devices (tablets, less than 992px) */
 
 @media (max-width: 991.98px) {
@@ -836,7 +830,6 @@ div.skill {
 	}
 }
 
-
 /* Large devices (desktops, less than 1200px) */
 
 @media (max-width: 1199.98px) {
@@ -845,7 +838,6 @@ div.skill {
 		padding: 25px 5px;
 	}
 }
-
 
 /* ANIMATIONS */
 
@@ -861,6 +853,5 @@ div.skill {
 		visibility: visible
 	}
 }
-
 
 /* ANIMATIONS ---- END */
